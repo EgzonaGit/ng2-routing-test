@@ -4,7 +4,7 @@ import { User } from '../shared/models/user';
 import { UserService } from '../shared/services/user.service';
 
 @Injectable()
-export class AboutUsersResolve implements Resolve<User> {
+export class AboutUsersResolve {
 
   constructor(private service: UserService) {}
 

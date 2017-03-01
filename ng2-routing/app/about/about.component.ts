@@ -29,6 +29,7 @@ import {UserService} from '../shared/services/user.service';
         </div>
     </div>`
 
+
 })
 export class AboutComponent implements OnInit{
     users: User[];
